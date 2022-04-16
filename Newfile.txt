@@ -1,0 +1,10 @@
+create a folder
+create a new file
+Right click inside the filder and select Git Bash
+git init
+git status
+git add . 
+
+You have to add the file again if we make any modification before you commit otherwise the latest changes will not 
+committed.
+

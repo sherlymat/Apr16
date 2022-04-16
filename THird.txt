@@ -1,0 +1,287 @@
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Firstfile.txt.txt
+        Imp.png
+        Leadership.png
+        Pjt Mgmt.png
+        Sherly.jpg
+        Time Mgmt.png
+        pjt mgmt.jpg
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Firstfile.txt.txt
+        Imp.png
+        Leadership.png
+        Pjt Mgmt.png
+        Time Mgmt.png
+        pjt mgmt.jpg
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git add .
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Firstfile.txt.txt
+        new file:   Imp.png
+        new file:   Leadership.png
+        new file:   Pjt Mgmt.png
+        new file:   Time Mgmt.png
+        new file:   pjt mgmt.jpg
+
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git rm --cached Imp.png
+rm 'Imp.png'
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Firstfile.txt.txt
+        new file:   Leadership.png
+        new file:   Pjt Mgmt.png
+        new file:   Time Mgmt.png
+        new file:   pjt mgmt.jpg
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Firstfile.txt.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Imp.png
+
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git add firstfile.txt Imp.png
+fatal: pathspec 'firstfile.txt' did not match any files
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git add .
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Firstfile.txt.txt
+        new file:   Imp.png
+        new file:   Leadership.png
+        new file:   Pjt Mgmt.png
+        new file:   Time Mgmt.png
+        new file:   pjt mgmt.jpg
+
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ Git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Firstfile.txt.txt
+        new file:   Imp.png
+        new file:   Leadership.png
+        new file:   Pjt Mgmt.png
+        new file:   Time Mgmt.png
+        new file:   pjt mgmt.jpg
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Second file.txt.txt
+
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ Git add second file.txt
+fatal: pathspec 'second' did not match any files
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Firstfile.txt.txt
+        new file:   Imp.png
+        new file:   Leadership.png
+        new file:   Pjt Mgmt.png
+        new file:   Time Mgmt.png
+        new file:   pjt mgmt.jpg
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Second file.txt.txt
+
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Firstfile.txt.txt
+        new file:   Imp.png
+        new file:   Leadership.png
+        new file:   Pjt Mgmt.png
+        new file:   Time Mgmt.png
+        new file:   pjt mgmt.jpg
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Second file.txt.txt
+
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Firstfile.txt.txt
+        new file:   Imp.png
+        new file:   Leadership.png
+        new file:   Pjt Mgmt.png
+        new file:   Time Mgmt.png
+        new file:   pjt mgmt.jpg
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Second file.txt.txt
+
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git add .
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Firstfile.txt.txt
+        new file:   Imp.png
+        new file:   Leadership.png
+        new file:   Pjt Mgmt.png
+        new file:   Second file.txt.txt
+        new file:   Time Mgmt.png
+        new file:   pjt mgmt.jpg
+
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git commit -m "V1"
+[master (root-commit) a026fe0] V1
+ 7 files changed, 2 insertions(+)
+ create mode 100644 Firstfile.txt.txt
+ create mode 100644 Imp.png
+ create mode 100644 Leadership.png
+ create mode 100644 Pjt Mgmt.png
+ create mode 100644 Second file.txt.txt
+ create mode 100644 Time Mgmt.png
+ create mode 100644 pjt mgmt.jpg
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        THird.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git add .THird.txt
+fatal: pathspec '.THird.txt' did not match any files
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git add THird.txt
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   THird.txt
+
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git log
+commit a026fe086ff77517e786cb8f87dac07d7565555b (HEAD -> master)
+Author: Sherly <sherlymathews2931@gmail.com>
+Date:   Sun Apr 10 00:09:07 2022 -0400
+
+    V1
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git log --oneline
+a026fe0 (HEAD -> master) V1
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+$ git log
+commit a026fe086ff77517e786cb8f87dac07d7565555b (HEAD -> master)
+Author: Sherly <sherlymathews2931@gmail.com>
+Date:   Sun Apr 10 00:09:07 2022 -0400
+
+    V1
+
+Sarah@DellLaptopSarah MINGW64 /c/GIT (master)
+
+
+Head - latest version of the code.
